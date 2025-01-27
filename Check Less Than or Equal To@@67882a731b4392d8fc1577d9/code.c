@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a,s;
     scanf("%a %s",&a ,&s);
-    if (a<=s)
+    if (a>=s)
     {
         printf("True");
     }
