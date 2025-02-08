@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     int a,b;
     char op;
-    scanf("%d %d %c",&a,&b,&op);
+    scanf("%d %d %c", &a, &b, &op);
     if (op=='+')
     {
         printf("%d",a+b);
@@ -26,7 +26,7 @@ int main() {
     }
     else 
     {
-        printf("Error")
+        printf("Error");
     }
     return 0;
 }
