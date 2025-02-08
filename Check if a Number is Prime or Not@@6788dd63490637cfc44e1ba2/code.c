@@ -14,9 +14,12 @@ int main() {
             count+=1;
         }
     }
-    if (count=-1)
+    if (count==1)
     {
-        printf("%d\n",n);
+        printf("Prime");
+    }
+    else {
+        printf("Not Prime")
     }
     return 0;
 }
