@@ -18,7 +18,7 @@ int main() {
         case 'C':
         printf("Average");
         break;
-        case 'D'
+        case 'D':
         printf("Below Average");
         break;
         case 'F':
