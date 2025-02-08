@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int n;
-    scanF("%d",&n);
+    scanf("%d",&n);
     if (n>=60)
     {
         printf("Eligible");
