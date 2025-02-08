@@ -5,13 +5,14 @@ char* welcome() {
 }
 
 int main() {
-    int a,b,o;
-    scanf("%d %d %d",&a,&b,&o);
-    if (o==+)
+    int a,b;
+    char op;
+    scanf("%d %d %c",&a,&b,&op);
+    if (op=='+')
     {
         printf("%d",a+b);
     }
-    else if (o==-)
+    else if (o=='-')
     {
         printf("%d",a-b);
     }
