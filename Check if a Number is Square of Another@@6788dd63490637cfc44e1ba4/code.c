@@ -9,10 +9,10 @@ int main() {
     scanf("%d %d",a,s);
     if (a==s*s)
     {
-        printf("Yes")
+        printf("Yes");
     }
     else {
-        printf("No")
+        printf("No");
     }
     return 0;
 }
