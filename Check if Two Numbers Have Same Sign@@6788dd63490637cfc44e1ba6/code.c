@@ -13,7 +13,7 @@ int main() {
     }
     else 
     {
-        printf("Differnet Sign");
+        printf("Different Sign");
     }
     return 0;
 }
