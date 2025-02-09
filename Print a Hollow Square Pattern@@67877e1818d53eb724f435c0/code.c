@@ -11,11 +11,11 @@ int main() {
     {
         for (j=1;j<=n;j++)
         {   
-            if (n%2!=0  && i==(n/2)+1)
+            if (i==1||j==1||i==n||j==n)
             {
-                
+                printf("*");
             }
-            printf("* ");
+            
         }
         printf("\n");
     }
