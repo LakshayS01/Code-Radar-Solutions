@@ -9,14 +9,12 @@ int main() {
     scanf("%d",&n);
     for (i=1;i<=n;i++)
     {   
-        char ch=A;
+        char ch='A';
         for (j=n;j<=i;j--)
         {   
-            for (ch=A;ch<=Z;ch++){
-                printf("%c ",chr);
-            }
-            
-            
+            for (ch='A';ch<='Z';ch++){
+                printf("%c ",ch);
+            }   
         }
         printf("\n");
     }
