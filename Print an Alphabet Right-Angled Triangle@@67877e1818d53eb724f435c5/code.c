@@ -12,9 +12,8 @@ int main() {
         char ch='A';
         for (j=n;j<=i;j--)
         {   
-            for (ch='A';ch<='Z';ch++){
-                printf("%c ",ch);
-            }   
+            printf("%c ",ch);
+            ch++;  
         }
         printf("\n");
     }
