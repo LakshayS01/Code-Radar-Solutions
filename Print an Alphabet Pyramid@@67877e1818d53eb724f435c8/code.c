@@ -14,9 +14,10 @@ int main() {
             printf(" ");
         }
         char ch='A'
-        for (ch='A';ch<='Z';ch++)
+        for (j=1;j<=i;j++)
         {
             printf("%c ",ch);
+            ch+=1;
         }
         printf("\n");
     }   
