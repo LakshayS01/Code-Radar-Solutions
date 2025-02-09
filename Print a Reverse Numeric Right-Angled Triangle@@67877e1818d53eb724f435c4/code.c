@@ -10,7 +10,7 @@ int main() {
     for (i=1;i<=n;i++)
     {   
         int count=1;
-        for (j=1;j<=n;j++)
+        for (j=1;j<=i;j++)
         {
             printf("%d ",count);   
         }
