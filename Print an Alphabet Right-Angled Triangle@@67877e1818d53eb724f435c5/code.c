@@ -5,14 +5,18 @@ char* welcome() {
 }
 int main() {
     int n,i,j;
+    
     scanf("%d",&n);
     for (i=1;i<=n;i++)
     {   
-        char chr=A;
+        char ch=A;
         for (j=n;j<=i;j--)
-        {
-            printf("%d ",chr);
-            chr+=1;
+        {   
+            for (ch=A;ch<=Z;ch++){
+                printf("%c ",chr);
+            }
+            
+            
         }
         printf("\n");
     }
