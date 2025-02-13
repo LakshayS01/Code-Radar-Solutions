@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int a,s;
-    scanf("%d %d",&a,&s);
-    printf("%d",a & s);
+    unsigned int a,s;
+    scanf("%u %u",&a,&s);
+    printf("%u",a & s);
     return 0;
 }
