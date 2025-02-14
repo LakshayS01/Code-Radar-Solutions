@@ -5,8 +5,8 @@ int main()
     scanf("%d %d",&n,&i);
     int m=1<<i;
     if(n&m)
-        printf("0");
+        printf("1");
     else 
-        printf("1");   
+        printf("0");   
     return 0;
 }
